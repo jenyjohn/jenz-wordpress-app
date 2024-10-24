@@ -3,6 +3,7 @@
 This project sets up a simple WordPress site using Docker Compose with a MySQL database.
 
 ## Prerequisites
+## Test
 
 - Docker
 - Docker Compose
