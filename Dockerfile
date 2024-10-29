@@ -1,5 +1,6 @@
 # Use the official WordPress image
-#test
+# test
+# test 2
 FROM wordpress:latest
 
 # Copy custom WordPress application files into the container
