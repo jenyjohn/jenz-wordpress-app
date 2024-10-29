@@ -1,5 +1,6 @@
 # Use Maven image as base
 # Testing with maven
+# Testing with docker compose command
 
 FROM maven:3.8.1-jdk-11 AS build
 
