@@ -21,7 +21,7 @@ COPY . /var/www/html
 RUN chown -R www-data:www-data /var/www/html
 
 # Expose port 80 for WordPress
-EXPOSE 80
+EXPOSE 8081
 
 # Start Apache
 CMD ["apache2-foreground"]
