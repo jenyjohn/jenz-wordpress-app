@@ -1,4 +1,5 @@
 # Use Maven image as base
+# test
 FROM maven:3.8.1-jdk-11 AS build
 
 # Copy your application files
