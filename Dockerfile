@@ -20,7 +20,7 @@ COPY . /var/www/html
 # Set permissions
 RUN chown -R www-data:www-data /var/www/html
 
-# Expose port 80 for WordPress
+# Expose port 81 for WordPress
 EXPOSE 8081
 
 # Start Apache
