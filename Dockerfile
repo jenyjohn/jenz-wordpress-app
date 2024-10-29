@@ -1,6 +1,14 @@
+# Use Maven image as base
+FROM maven:3.8.1-jdk-11 AS build
+
+# Copy your application files
+COPY . /app
+WORKDIR /app
+
+# Run Maven to build the project
+RUN mvn clean install
+
 # Use the official WordPress image
-# test
-# test 2
 FROM wordpress:latest
 
 # Copy custom WordPress application files into the container
