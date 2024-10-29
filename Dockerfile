@@ -12,7 +12,7 @@
 # RUN mvn clean install
 
 # Use the official WordPress image
-FROM httpd:latest
+FROM php:latest
 
 # Copy custom WordPress application files into the container
 COPY ./wordpress_data /usr/local/apache2/htdocs/
