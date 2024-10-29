@@ -18,7 +18,7 @@ FROM wordpress:latest
 COPY . /var/www/html
 
 # Set permissions
-RUN chown -R www-data:www-data /var/www/html
+#RUN chown -R www-data:www-data /var/www/html
 
 # Expose port 81 for WordPress
 EXPOSE 8081
