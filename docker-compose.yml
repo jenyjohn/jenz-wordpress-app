@@ -22,6 +22,6 @@ services:
       MYSQL_PASSWORD: ${MYSQL_PASSWORD}
     volumes:
       - ./db_data:/var/lib/mysql
-  volumes:
+volumes:
     wordpress_data:
     db_data:
