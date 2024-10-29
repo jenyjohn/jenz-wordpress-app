@@ -18,7 +18,7 @@ FROM wordpress:latest
 COPY . /var/www/html
 
 # Set permissions
-#RUN chown -R jenkins:jenkins /var/www/html
+RUN chown -R jenkins:jenkins /var/www/html
 
 # Expose port 80 for WordPress
 EXPOSE 80
